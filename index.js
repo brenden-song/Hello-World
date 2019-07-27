@@ -13,3 +13,7 @@ const server = http.createServer((req, res) => {
 server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
+
+server.listen(PORT, () => {
+  console.log(`Server running on ${PORT}/`);
+});
