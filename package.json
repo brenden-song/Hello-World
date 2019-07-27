@@ -9,7 +9,7 @@
   },
   "author": "Brenden Song",
   "license": "ISC",
-"engines": {
+  "engines": {
     "node": "10.16.0"
   }
 }
